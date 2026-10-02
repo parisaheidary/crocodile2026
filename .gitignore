@@ -1,0 +1,7 @@
+*.nc
+*.out
+*.gz
+*.png
+*.gif
+__pycache__/
+.ipynb_checkpoints/

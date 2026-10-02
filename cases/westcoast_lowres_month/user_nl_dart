@@ -1,0 +1,96 @@
+!------------------------------------------------------------------------
+! Users should ONLY USE user_nl_dart to change namelist variables
+! for namelist variables in DART input.nml.
+! Users should add ALL user specific namelist changes below using the
+! following syntax:
+!
+! &namelist
+! namelist_var = new_namelist_value
+! /
+!
+! This file applies to ALL active DA components.
+!
+! To override settings for a specific component only, create a file
+! named user_nl_dart_{comp} in $CASEROOT, e.g.:
+!   user_nl_dart_atm   (atmosphere)
+!   user_nl_dart_ocn   (ocean)
+!   user_nl_dart_lnd   (land)
+!   user_nl_dart_ice   (sea-ice)
+!
+! Settings in user_nl_dart_{comp} take precedence over this file for
+! that component. Both files may be used together.
+!
+! Note that some namelist variables MAY NOT be changed in user_nl_dart -
+! they are defined in a $CASEROOT xml file and must be changed with
+! xmlchange.
+!
+!------------------------------------------------------------------------
+! Inflation
+!
+! With inf_initial_from_restart / inf_sd_initial_from_restart = .true.,
+! inflation is read from the restart written by the previous assimilation
+! cycle.  On the FIRST cycle of a new case there is no such file yet, so
+! assimilate.py turns the from_restart flags off for that cycle only and
+! filter starts from inf_initial / inf_sd_initial below.  Set them to the
+! values you want inflation to begin at; from the second cycle onward they
+! are ignored, because inflation comes from the restart file.
+!
+! inf_sd_initial must be greater than zero for inflation to adapt.  With
+! inf_sd_initial = 0.0 (the template default) inflation stays fixed at
+! inf_initial for the WHOLE run, not just the first cycle: the zero is
+! written into the inflation restart and read back every cycle after.
+! 0.6 is a common starting value.  dart_log.out reports 'time-constant'
+! instead of 'time-adaptive' inflation when this happens.
+!
+!------------------------------------------------------------------------
+! Ensemble perturbation (tutorial / cold-start cases)
+!
+! Set perturb_from_single_instance = .true. below for a multi-instance case
+! where every instance starts from an identical restart (e.g. the
+! tutorial). assimilate.py then restricts it to cycle 0 only: cycle 0
+! perturbs instance 1's restart into the full ensemble; every cycle after
+! is forced back to .false. regardless of this setting, because by then the
+! instances have diverged through assimilation and the real, by-then-
+! diverged per-instance restarts must be used instead.
+!
+! If you leave this .false. (the default), nothing is forced on at any
+! cycle.
+!
+! perturbation_amplitude controls how large the cycle-0 perturbation
+! is.  It is ignored once perturb_from_single_instance is .false.
+!
+! WARNING: if you resubmit a job mid-experiment with this still set to
+! .true., CIME's cycle counter restarts at 0 for the new job segment, and
+! cycle 0 will perturb again, discarding the ensemble spread already built
+! up.  Set it back to .false. before resubmitting an in-progress
+! multi-cycle experiment.
+!
+!------------------------------------------------------------------------
+
+&model_nml
+use_pseudo_depth = .true. 
+layer_name = 'Layer'
+model_state_variables        = 'Salt ', 'QTY_SALINITY             ', 'NA', 'NA', 'UPDATE',
+                               'Temp ', 'QTY_POTENTIAL_TEMPERATURE', 'NA', 'NA', 'UPDATE',
+                               'u    ', 'QTY_U_CURRENT_COMPONENT  ', 'NA', 'NA', 'UPDATE',
+                               'v    ', 'QTY_V_CURRENT_COMPONENT  ', 'NA', 'NA', 'UPDATE',
+/
+
+&obs_kind_nml
+assimilate_these_obs_types = 'ARGO_SALINITY', 'ARGO_TEMPERATURE'
+/
+
+&assim_tools_nml
+cutoff = 0.01
+/
+
+&filter_nml
+perturb_from_single_instance = .true.
+perturbation_method = 'model'
+stages_to_write = 'output', 'preassim'
+num_output_state_members = 3
+output_members               = .true.
+/
+
+
+

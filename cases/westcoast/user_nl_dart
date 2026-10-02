@@ -1,0 +1,24 @@
+&model_nml
+use_pseudo_depth = .true.
+layer_name = 'Layer'
+model_state_variables        = 'Salt ', 'QTY_SALINITY             ', 'NA', 'NA', 'UPDATE',
+                               'Temp ', 'QTY_POTENTIAL_TEMPERATURE', 'NA', 'NA', 'UPDATE',
+                               'u    ', 'QTY_U_CURRENT_COMPONENT  ', 'NA', 'NA', 'UPDATE',
+                               'v    ', 'QTY_V_CURRENT_COMPONENT  ', 'NA', 'NA', 'UPDATE',
+/
+
+&obs_kind_nml
+assimilate_these_obs_types = 'ARGO_SALINITY', 'ARGO_TEMPERATURE'
+/
+
+&assim_tools_nml
+cutoff = 0.01
+/
+
+&filter_nml
+perturb_from_single_instance = .true.
+perturbation_method = 'model'
+stages_to_write = 'output', 'preassim'
+num_output_state_members = 3
+output_members               = .true.
+/
