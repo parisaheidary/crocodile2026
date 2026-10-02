@@ -1,0 +1,220 @@
+"MOM6 diagnostic fields table for CESM case: westcoast"
+1 1 1 0 0 0
+### Section-1: File List
+#========================
+"westcoast.mom6.h.rho2%4yr-%2mo",                        1,  "months", 1, "days",   "time", 1, "months"
+"westcoast.mom6.h.native%4yr-%2mo",                      1,  "months", 1, "days",   "time", 1, "months"
+"westcoast.mom6.h.z%4yr-%2mo",                           1,  "months", 1, "days",   "time", 1, "months"
+"westcoast.mom6.h.sfc%4yr-%2mo",                         1,  "days",   1, "days",   "time", 1, "months"
+"westcoast.mom6.h.static",                               -1, "days",   1, "days",   "time"
+
+### Section-2: Fields List
+#=========================
+# "westcoast.mom6.h.rho2%4yr-%2mo"
+"ocean_model_rho2", "volcello","volcello","westcoast.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "vmo",     "vmo",     "westcoast.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "vhGM",    "vhGM",    "westcoast.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "vhml",    "vhml",    "westcoast.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "umo",     "umo",     "westcoast.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "uhGM",    "uhGM",    "westcoast.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "uhml",    "uhml",    "westcoast.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "thetao",  "thetao",  "westcoast.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "so",      "so",      "westcoast.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "agessc",  "agessc",  "westcoast.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "e",       "e",       "westcoast.mom6.h.rho2%4yr-%2mo", "all", "mean", "none", 2
+
+# "westcoast.mom6.h.native%4yr-%2mo"
+"ocean_model", "soga",         "soga",         "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "thetaoga",     "thetaoga",     "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "uh",           "uh",           "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vh",           "vh",           "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vhbt",         "vhbt",         "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "uhbt",         "uhbt",         "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "rsdo",         "rsdo",         "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "agessc",       "agessc",       "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_ady_2d",     "T_ady_2d",     "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_adx_2d",     "T_adx_2d",     "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_diffy_2d",   "T_diffy_2d",   "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_diffx_2d",   "T_diffx_2d",   "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_hbd_diffx_2d","T_hbd_diffx_2d","westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_hbd_diffy_2d","T_hbd_diffy_2d","westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "diftrelo",     "diftrelo",     "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "diftrblo",     "diftrblo",     "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "difmxybo",     "difmxybo",     "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "difmxylo",     "difmxylo",     "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "volcello",     "volcello",     "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vmo",          "vmo",          "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vhGM",         "vhGM",         "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vhml",         "vhml",         "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "umo",          "umo",          "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "uhGM",         "uhGM",         "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "uhml",         "uhml",         "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "uo",           "uo",           "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vo",           "vo",           "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "h",            "h",            "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "e",            "e",            "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "thetao",       "thetao",       "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "so",           "so",           "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KE",           "KE",           "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "MEKE",         "MEKE",         "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "rhopot0",      "rhopot0",      "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "rhopot2",      "rhopot2",      "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "difvho",       "difvho",       "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "difvso",       "difvso",       "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Kv_u",         "Kv_u",         "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Kv_v",         "Kv_v",         "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "taux_bot",     "taux_bot",     "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tauy_bot",     "tauy_bot",     "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml",          "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml_min",      "westcoast.mom6.h.native%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml_max",      "westcoast.mom6.h.native%4yr-%2mo", "all", "max", "none", 2
+"ocean_model", "tauuo",        "tauuo",        "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tauvo",        "tauvo",        "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "friver",       "friver",       "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "prsn",         "prsn",         "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "prlq",         "prlq",         "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "evs",          "evs",          "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "hfsso",        "hfsso",        "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "rlntds",       "rlntds",       "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "hfsnthermds",  "hfsnthermds",  "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sfdsi",        "sfdsi",        "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "rsntds",       "rsntds",       "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "hfds",         "hfds",         "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "ustar",        "ustar",        "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "hfsifrazil",   "hfsifrazil",   "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "wfo",          "wfo",          "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "ficeberg",     "ficeberg",     "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "fsitherm",     "fsitherm",     "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "hflso",        "hflso",        "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "pso",          "pso",          "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "seaice_melt_heat","seaice_melt_heat","westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Heat_PmE",     "Heat_PmE",     "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_lrunoff","heat_content_lrunoff","westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_frunoff","heat_content_frunoff","westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_lprec","heat_content_lprec","westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_fprec","heat_content_fprec","westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_cond","heat_content_cond","westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_evap","heat_content_evap","westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tos",          "tos",          "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tos",          "tos_min",      "westcoast.mom6.h.native%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "tos",          "tos_max",      "westcoast.mom6.h.native%4yr-%2mo", "all", "max", "none", 2
+"ocean_model", "sos",          "sos",          "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sos",          "sos_min",      "westcoast.mom6.h.native%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "sos",          "sos_max",      "westcoast.mom6.h.native%4yr-%2mo", "all", "max", "none", 2
+"ocean_model", "SSU",          "SSU",          "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "SSV",          "SSV",          "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "opottempmint", "opottempmint", "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "somint",       "somint",       "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Rd_dx",        "Rd_dx",        "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "speed",        "speed",        "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mlotst",       "mlotst",       "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mlotst",       "mlotst_min",   "westcoast.mom6.h.native%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "mlotst",       "mlotst_max",   "westcoast.mom6.h.native%4yr-%2mo", "all", "max", "none", 2
+"ocean_model", "tosga",        "tosga",        "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sosga",        "sosga",        "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "SSH",          "SSH",          "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mass_wt",      "mass_wt",      "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "dispkexyfo",   "dispkexyfo",   "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "hfibthermds",  "hfibthermds",  "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mlotstsq",     "mlotstsq",     "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "pbo",          "pbo",          "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "S_adx_2d",     "S_adx_2d",     "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "S_ady_2d",     "S_ady_2d",     "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sob",          "sob",          "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sossq",        "sossq",        "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tob",          "tob",          "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tossq",        "tossq",        "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "zos",          "zos",          "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "zossq",        "zossq",        "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "BS_coeff_h",   "BS_coeff_h",   "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "skeb_amp",     "skeb_amp",     "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "heat_content_vprec","heat_content_vprec","westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vprec",        "vprec",        "westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "salt_flux_added","salt_flux_added","westcoast.mom6.h.native%4yr-%2mo", "all", "mean", "none", 2
+
+# "westcoast.mom6.h.z%4yr-%2mo"
+"ocean_model_z", "uo",           "uo",           "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "vo",           "vo",           "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "h",            "h",            "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "thetao",       "thetao",       "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "so",           "so",           "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "agessc",       "agessc",       "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "rhopot0",      "rhopot0",      "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "N2_int",       "N2_int",       "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "rhopot2",      "rhopot2",      "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "difvho",       "difvho",       "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "difvso",       "difvso",       "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "Kv_u",         "Kv_u",         "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "Kv_v",         "Kv_v",         "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "volcello",     "volcello",     "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "vmo",          "vmo",          "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "vhGM",         "vhGM",         "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "vhml",         "vhml",         "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "umo",          "umo",          "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "uhGM",         "uhGM",         "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "uhml",         "uhml",         "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "diftrelo",     "diftrelo",     "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "diftrblo",     "diftrblo",     "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "difmxybo",     "difmxybo",     "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "difmxylo",     "difmxylo",     "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "opottempdiff", "opottempdiff", "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "T_advection_xy","T_advection_xy","westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "opottemptend", "opottemptend", "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "osaltdiff",    "osaltdiff",    "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "S_advection_xy","S_advection_xy","westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "osalttend",    "osalttend",    "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z", "rsdoabsorb",   "rsdoabsorb",   "westcoast.mom6.h.z%4yr-%2mo", "all", "mean", "none", 2
+
+# "westcoast.mom6.h.sfc%4yr-%2mo"
+"ocean_model", "tos",          "tos",          "westcoast.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tos",          "tos_min",      "westcoast.mom6.h.sfc%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "tos",          "tos_max",      "westcoast.mom6.h.sfc%4yr-%2mo", "all", "max", "none", 2
+"ocean_model", "sos",          "sos",          "westcoast.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sos",          "sos_min",      "westcoast.mom6.h.sfc%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "sos",          "sos_max",      "westcoast.mom6.h.sfc%4yr-%2mo", "all", "max", "none", 2
+"ocean_model", "SSU",          "SSU",          "westcoast.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "SSV",          "SSV",          "westcoast.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "opottempmint", "opottempmint", "westcoast.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "somint",       "somint",       "westcoast.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Rd_dx",        "Rd_dx",        "westcoast.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "speed",        "speed",        "westcoast.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mlotst",       "mlotst",       "westcoast.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mlotst",       "mlotst_min",   "westcoast.mom6.h.sfc%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "mlotst",       "mlotst_max",   "westcoast.mom6.h.sfc%4yr-%2mo", "all", "max", "none", 2
+"ocean_model", "zos",          "zos",          "westcoast.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "zossq",        "zossq",        "westcoast.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml",          "westcoast.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml_min",      "westcoast.mom6.h.sfc%4yr-%2mo", "all", "min", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml_max",      "westcoast.mom6.h.sfc%4yr-%2mo", "all", "max", "none", 2
+"ocean_model", "tossq",        "tossq",        "westcoast.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "rsdo",         "rsdo",         "westcoast.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_adx_2d",     "T_adx_2d",     "westcoast.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_ady_2d",     "T_ady_2d",     "westcoast.mom6.h.sfc%4yr-%2mo", "all", "mean", "none", 2
+
+# "westcoast.mom6.h.static"
+"ocean_model", "geolon",      "geolon",      "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "geolat",      "geolat",      "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "geolon_c",    "geolon_c",    "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "geolat_c",    "geolat_c",    "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "geolon_u",    "geolon_u",    "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "geolat_u",    "geolat_u",    "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "geolon_v",    "geolon_v",    "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "geolat_v",    "geolat_v",    "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "deptho",      "deptho",      "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "wet",         "wet",         "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "wet_c",       "wet_c",       "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "wet_u",       "wet_u",       "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "wet_v",       "wet_v",       "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "Coriolis",    "Coriolis",    "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "areacello",   "areacello",   "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "areacello_cu","areacello_cu","westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "areacello_cv","areacello_cv","westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "areacello_bu","areacello_bu","westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "sin_rot",     "sin_rot",     "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "cos_rot",     "cos_rot",     "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "cpocean",     "cpocean",     "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "rhozero",     "rhozero",     "westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "skeb_taper_v","skeb_taper_v","westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "skeb_taper_u","skeb_taper_u","westcoast.mom6.h.static", "all", ".false.", "none", 2
+"ocean_model", "Geo_heat",    "Geo_heat",    "westcoast.mom6.h.static", "all", ".false.", "none", 2
+
