@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.1.0",
+  "inputdir": "/glade/work/pheidary/crocodile2026/workspace/input_files/westcoast_lowres_month",
+  "cesmroot": "/glade/work/pheidary/crocodile2026/CESM_DA",
+  "supergrid_path": "/glade/work/pheidary/crocodile2026/workspace/input_files/westcoast_lowres_month/ocn/ocean_hgrid_westcoast_lowres_month_0a64c3.nc",
+  "topo_path": "/glade/work/pheidary/crocodile2026/workspace/input_files/westcoast_lowres_month/ocn/ocean_topog_westcoast_lowres_month_0a64c3.nc",
+  "vgrid_path": "/glade/work/pheidary/crocodile2026/workspace/input_files/westcoast_lowres_month/ocn/ocean_vgrid_westcoast_lowres_month_0a64c3.nc",
+  "grid_name": "westcoast_lowres_month",
+  "session_id": "0a64c3",
+  "compset_lname": "1850_DATM%JRA_SLND_SICE_MOM6%REGIONAL_SROF_SGLC_SWAV_DART%1",
+  "machine": "derecho",
+  "atm_grid_name": "TL319",
+  "rof_grid_name": null,
+  "ninst": 30,
+  "project": "UCGD0009",
+  "ntasks_ocn": null,
+  "job_queue": null,
+  "job_wallclock_time": null
+}
